@@ -1,0 +1,152 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<meta property="og:image" content="" />
+  <h1>{% block title %}Old Growth Network{% endblock %}</h1>
+{% endblock %}
+
+{% block navbar %}
+    {% include 'navigation.html' %}
+{% endblock %}
+
+{% block content %}
+<section class="hero-bg">
+<div class="container mb-md-4 mb-1">
+    <div class="row">
+        <div class="banner col-md-8 pl-md-4">
+            <div class="text-box">
+                <h1 class="hero">Save the birds<br>Save the trees<br>Save the planet</h1>
+            </div>
+            <div class="" style="margin-top: 10vh;">
+             <a class="my-button" href="" target="_blank" class="my-button">DONATE</a>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+    <section class="">
+        <div class="container my-md-3 my-lg-5 py-1 py-lg-5 pl-lg-5">
+            <div class="row">
+                <div class="col-md-5">
+                <h1 class="mb-md-4 my-3 my-md-0"> Saving the Last of the Ancient Forests</h1> 
+                    <img class="section-img shadow-right" src="{{ url_for('static', filename='./assets/murrelet_1.jpeg') }}" />
+                  <a class="btn my-button my-button-long my-3 ml-0" href="" target="_blank" role="button">Donate!</a>
+                 </div>
+                <div class="col-md-7 mx-auto ml-5 pl-md-5">
+                   
+                    <p>Old Growth Network aims to halt the deforestation of the oldest forest in British Columbia. We are a community of environmentalists, activitsts, biologists and ecologosists who support the legal action launched by Friends of Fairy Creek Society to protect migratory birds and the trees they nest in!
+                    We call on you to help us to preserve endangered species, Old Growth Trees and our planet.</p> 
+
+                    <p>Migratory birds and their nests are protected by legislation in Canada and an international convention with the USA, Mexico, Japan and Russia. We argue that the government has not done enough to enforce these protections. This is why Friends of Fairy Creek Society have filed a petition to compel enforcement.</p>
+
+                    <p>The Marbled Murrelet is important to both marine and forest ecosystems. By holding the Canadian government accountable Friends of Fairy Creek Society will halt the destruction of the birds’ nests and the forest as a whole.</p>
+
+                    <p>Your donation counts! We invite you to make whatever monetary contribution you can to support the petition. We are a network of supporters as the case progresses. Friends of Fairy Creek Society is a non-profit incorporated Society and are not able to provide tax receipts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <section class="">
+        <div class="container my-3 my-lg-5 py-1 py-lg-5 pl-lg-5">
+            <div class="row">
+                <div class="col-md-5">
+                    <h1 class="mb-md-4 mt-3 mt-md-0">The Marbled Murrelet</h1>  
+                    <img class="section-img shadow-right" src="{{ url_for('static', filename='./assets/murrelet_2.jpeg') }}" />
+                 </div>
+                <div class="col-md-7 mx-auto ml-5 pl-md-5 mt-3 mt-md-2">  
+                    <p>The marbled murrelet is a small seabird of the North Pacific that nests in Old Growth Forests. The Marbled Murrelets do not build nests, they are unique in nesting in the canopies of large trees. Decades of research have shown that they have very specific requirements for nesting trees: the trees must be high to allow them to make stall landings (swoop up and stall as they land); gaps in the forest to allow them to access canopy boughs; and moss-covered branches and wide limbs on which to nest. They don't make a nest, but lay a single egg in a hollow in the mossy platform. </p><p><strong>These specific requirements for nesting are generally only provided in old-growth conifers within 30 km of the ocean.</strong> Consequently over 95% of nests have been found in old growth forests across their range. They return to the same area annually to nest and rear their young. They can travel over a hundred kilometers a day between their inland nest sites and marine foraging areas, where they hunt for small fish to feed their chicks. Murrelets are unusual among seabirds in their solitary and secretive nesting habits. They avoid predators by flying silently at high speeds (greater than 80 km/h) during twilight to visit their secluded forest nests. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- FAQs -->
+<section class="bg-rose py-md-4">
+      <div class="container mt-4 pt-5 pl-md-5">
+          <h1 class="mb-5">Frequently Asked Questions</h1>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h4  class="mb-3">Why is Friends of Fairy Creek Society bringing this legal action?</h4>
+                    <p>To protect an important endangered species, the Marbled Murrelet, and the trees in which it nests.Migratory birds and their nests are protected by legislation in Canada and an international convention with and an international convention with the USA, Mexico, Japan and Russia. We argue that the government has not done enough to enforce these protections. We are filing this petition to compel enforcement.</p>
+                </div>
+                  <div class="col-md-4 mb-3">
+                    <h4  class="mb-3">Who must answer the Court application?</h4>
+                    <p>Canada’s Attorney General and the federal Minister of Environment and Climate Change, as well as B.C.’s Attorney General and Minister of Forests.</p>
+                </div>
+                  <div class="col-md-4 mb-3">
+                    <h4  class="mb-3">Why are migratory birds like the Marbled Murrelet important to the future of the planet?</h4>
+                    <p>Migratory birds have been protected since 1919. The Marbled Murrelet is important to both marine and forest ecosystems. By holding the Canadian government accountable we will halt the destruction of the birds’ nests and thereby the forest as a whole.</p>
+                </div>
+                <div class="row ml-1">
+                    <div class="col-md-4 mb-3">
+                    <h4  class="mb-3">If we are successful, what difference will it make?</h4>
+                    <p>A Court will be asked to examine and determine whether the destruction of old growth endangers the Marbled Murrelet in contravention of the law. Since Canada and BC have a duty to uphold the law, it is an effort to press governments to meet their obligations and take effective measures to protect endangered migratory birds.</p></div>
+                  <div class="col-md-4 mb-3">
+                    <h4  class="mb-3">Will I get a tax rebate for my donation?</h4>
+                    <p>No. Friends of Fairy Creek Society are a nonprofit incorporated Society under the laws of British Columbia, not a charity, and therefore and cannot offer a tax refund.</p>
+                </div>
+                  <div class="col-md-4 mb-3">
+                    <h4  class="mb-3">How can I help?</h4>
+                    <p>You can support the legal action and help cover legal costs by making a donation through our donations page.</p>
+                    <a class="btn my-button my-button-small my-3 ml-0" href="" target="_blank" role="button">Donate!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+            
+      <section class="py-4">
+        <div class="container mt-lg-4 py-2 mb-lg-5 pt-lg-5 pl-lg-5 pl-3">
+         <h1 class="green-text pb-md-4">BE THE CHANGE</h1>
+            <div class="row">
+                <div class="col-md-6 mb-md-1">
+                    <img class="" src="{{ url_for('static', filename='./assets/invite.png') }}" width="100%" height="auto"></img>
+                </div>
+                <div class="col-md-5 mr-md-3 mx-auto">
+                    <h3 class="">GoFundMe</h3>
+                    <p>Friends of Fairy Creek Society is currently raising money for their legal action through their GoFundMe page</p>
+                    <br>
+                    <h3>E-transfer</h3>
+                    <p>You can support Friends of Fairy Creek Society by sending an e-transfer to: </p>
+                    <br>
+                    <h3>Cheque</h3>
+                    <p>You can support Friends of Fairy Creek Society by sending an e-transfer to:</p>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- TEAM -->
+<section class="bg-rose pt-md-3 pb-md-4" id="team">
+      <div class="container mt-4 pt-5 pl-md-5">
+          <h1 class="mb-5">Our team</h1>
+            <div class="row">
+                <div class="col-md-3 mr-md- mb-3">
+                    <h4  class="mb-3"><a target="_blank" href="">Sally Glover</a></h4>
+                    <p>Sally has been a life advocate for the environmental movement. She has contributed to the wellness and sustainability of communities nationally and internationally, as an educator, psychologist and a business coach. She had a 6 year stint as co-chair of Victoria’s Values-based Business Network, sharing Green ideas to local businesses. She has produced and fundraised for many environmental causes, notably the first Fairy Creek rally, 2 Fest Music for the Environment and The Ocean Foundation.</p>
+                </div>
+                  <div class="col-md-3 mr-md- mb-3">
+                    <h4  class="mb-3"><a target="_blank" href="">Sally Glover</a></h4>
+                    <p>Sally has been a life advocate for the environmental movement. She has contributed to the wellness and sustainability of communities nationally and internationally, as an educator, psychologist and a business coach. She had a 6 year stint as co-chair of Victoria’s Values-based Business Network, sharing Green ideas to local businesses. She has produced and fundraised for many environmental causes, notably the first Fairy Creek rally, 2 Fest Music for the Environment and The Ocean Foundation.</p>
+                </div>
+                  <div class="col-md-3 mr-md- mb-3">
+                    <h4  class="mb-3"><a target="_blank" href="">Sally Glover</a></h4>
+                    <p>Sally has been a life advocate for the environmental movement. She has contributed to the wellness and sustainability of communities nationally and internationally, as an educator, psychologist and a business coach. She had a 6 year stint as co-chair of Victoria’s Values-based Business Network, sharing Green ideas to local businesses. She has produced and fundraised for many environmental causes, notably the first Fairy Creek rally, 2 Fest Music for the Environment and The Ocean Foundation.</p>
+                </div>
+                  <div class="col-md-3 mr-md- mb-3">
+                    <h4  class="mb-3"><a target="_blank" href="">Sally Glover</a></h4>
+                    <p>Sally has been a life advocate for the environmental movement. She has contributed to the wellness and sustainability of communities nationally and internationally, as an educator, psychologist and a business coach. She had a 6 year stint as co-chair of Victoria’s Values-based Business Network, sharing Green ideas to local businesses. She has produced and fundraised for many environmental causes, notably the first Fairy Creek rally, 2 Fest Music for the Environment and The Ocean Foundation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+            
+
+
+
+
+       
+       {% include "footer.html" %}
+{% endblock %}
