@@ -180,19 +180,13 @@ a:hover {color:  rgba(184, 246, 183, 0.9);}
     }
 
     .img-logo {
-        width: 10vw; 
+        width: 25vw; 
         height: auto;
     }
 
-    .navbar{ font-size:50%; 
-        -webkit-text-size-adjust:none; }  /* should render everything * 0.8 */  
-    
-    footer {
-        font-size:50%; 
-        -webkit-text-size-adjust:none;
-    }
+
     .img-footer{
-        width: 8rem;
+        width: 40vw;
         height: auto;
      }
     
