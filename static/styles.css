@@ -21,6 +21,11 @@ a:hover {color:  rgba(184, 246, 183, 0.9);}
 .my-navbar { background-color: #115707;}
 .my-navbar, li {font-size: 1.2rem; font-family: 'Roboto Condensed', sans-serif;}
 
+.img-logo {
+    width:8rem; 
+    height: auto;
+}
+
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: rgba(184, 246, 183, 0.9);
 }
@@ -115,6 +120,11 @@ a:hover {color:  rgba(184, 246, 183, 0.9);}
     color: white;
  }
 
+ .img-footer{
+    width: 15rem;
+    height: auto;
+ }
+
  .dark-footer {
     background-color: #4CB963;
  }
@@ -158,8 +168,6 @@ a:hover {color:  rgba(184, 246, 183, 0.9);}
     }
   }
 
- 
-
   @media only screen and (max-width: 780px) {
     .hero {
         font-size: 2rem;
@@ -170,4 +178,22 @@ a:hover {color:  rgba(184, 246, 183, 0.9);}
         margin-left: 4vw;
         margin-bottom: 3vh;
     }
+
+    .img-logo {
+        width:6rem; 
+        height: auto;
+    }
+
+    .navbar{ font-size:50%; 
+        -webkit-text-size-adjust:none; }  /* should render everything * 0.8 */  
+    
+    footer {
+        font-size:50%; 
+        -webkit-text-size-adjust:none;
+    }
+    .img-footer{
+        width: 8rem;
+        height: auto;
+     }
+    
   }
