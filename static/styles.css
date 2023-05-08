@@ -15,14 +15,15 @@ a:hover {color:  rgba(184, 246, 183, 0.9);}
     font-weight: 400;
     font-size: 0.9rem;
 }
-.hero-bg { background-image: url("./assets/panorama.jpeg"); background-repeat: no-repeat; background-size: cover; margin-top: 80px; width:100vw;}
+.hero-bg { background-image: url("./assets/panorama.jpeg"); background-repeat: no-repeat; background-size: cover; margin-top: 65px; width:100vw;}
 .invite-img { background-image: url("./assets/invite.png"); background-repeat: no-repeat; background-size: contain; width:100vw; height:50vh;}
 
-.my-navbar { background-color: #115707;}
+.my-navbar { background-color: #115707; margin:0; padding:0;}
+.navbar-brand {margin: 0; padding: 0; padding-left: 1.1rem;}
 .my-navbar, li {font-size: 1.2rem; font-family: 'Roboto Condensed', sans-serif;}
 
 .img-logo {
-    width:12vw; 
+    width:11vw; 
     height: auto;
 }
 
