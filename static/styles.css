@@ -22,7 +22,7 @@ a:hover {color:  rgba(184, 246, 183, 0.9);}
 .my-navbar, li {font-size: 1.2rem; font-family: 'Roboto Condensed', sans-serif;}
 
 .img-logo {
-    width:8rem; 
+    width:10vw; 
     height: auto;
 }
 
@@ -180,7 +180,7 @@ a:hover {color:  rgba(184, 246, 183, 0.9);}
     }
 
     .img-logo {
-        width:6rem; 
+        width: 10vw; 
         height: auto;
     }
 
