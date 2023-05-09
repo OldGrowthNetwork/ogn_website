@@ -23,6 +23,9 @@ jobs:
     - name: Build a frozen copy
       run: |
         python freeze.py
+    - name: CNAME file
+      run: |
+        cat "oldgrowthnetwork.org" > ./build/CNAME
     - name: Push
       uses: s0/git-publish-subdir-action@develop
       env:
