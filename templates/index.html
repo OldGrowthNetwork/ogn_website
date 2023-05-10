@@ -5,33 +5,11 @@
   <h1>{% block title %}Old Growth Network{% endblock %}</h1>
 {% endblock %}
 
-
+{% block navbar %}
+    {% include 'navigation.html'%}
+{% endblock %}
 
 {% block content %}
-  <nav class="navbar navbar-expand-lg my-navbar navbar-light fixed-top">
-                <a class="navbar-brand" href="/">
-                    <img src="{{ url_for('static', filename='./assets/logo.png') }}" alt="" class="d-inline-block align-text-top img-logo"/></a>
-                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-            
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar navbar-nav ml-auto order-0">
-                    <li  class="nav-item px-3">
-                    <a class="nav-link active" href="#about">About us</a>
-                    </li>
-                    <li  class="nav-item px-3">
-                    <a class="nav-link" href="#faq">FAQ</a>
-                    </li>
-                    <li  class="nav-item px-3">
-                        <a class="nav-link" href="#support">Support us</a>
-                    </li>
-                    <li  class="nav-item px-3">
-                        <a class="nav-link" href="#team">Team</a>
-                    </li>
-                </ul>
-                </div>
-            </nav>
 
 <section class="hero-bg">
 <div class="container mb-md-4 mb-1">
@@ -143,35 +121,6 @@
             </div>
         </div>
     </section>
-
-     <!-- TEAM -->
-<section class="bg-rose pt-md-3 pb-md-4" id="team">
-      <div class="container mt-4 pt-5 pl-md-5">
-          <h1 class="mb-5">Our team</h1>
-            <div class="row">
-                <div class="col-md-3 mr-md- mb-3">
-                    <h4  class="mb-3"><a target="_blank" href="">Sally Glover</a></h4>
-                    <p>Sally has been a life advocate for the environmental movement. She has contributed to the wellness and sustainability of communities nationally and internationally, as an educator, psychologist and a business coach. She had a 6 year stint as co-chair of Victoria’s Values-based Business Network, sharing Green ideas to local businesses. She has produced and fundraised for many environmental causes, notably the first Fairy Creek rally, 2 Fest Music for the Environment and The Ocean Foundation.</p>
-                </div>
-                  <div class="col-md-3 mr-md- mb-3">
-                    <h4  class="mb-3"><a target="_blank" href="">Sally Glover</a></h4>
-                    <p>Sally has been a life advocate for the environmental movement. She has contributed to the wellness and sustainability of communities nationally and internationally, as an educator, psychologist and a business coach. She had a 6 year stint as co-chair of Victoria’s Values-based Business Network, sharing Green ideas to local businesses. She has produced and fundraised for many environmental causes, notably the first Fairy Creek rally, 2 Fest Music for the Environment and The Ocean Foundation.</p>
-                </div>
-                  <div class="col-md-3 mr-md- mb-3">
-                    <h4  class="mb-3"><a target="_blank" href="">Sally Glover</a></h4>
-                    <p>Sally has been a life advocate for the environmental movement. She has contributed to the wellness and sustainability of communities nationally and internationally, as an educator, psychologist and a business coach. She had a 6 year stint as co-chair of Victoria’s Values-based Business Network, sharing Green ideas to local businesses. She has produced and fundraised for many environmental causes, notably the first Fairy Creek rally, 2 Fest Music for the Environment and The Ocean Foundation.</p>
-                </div>
-                  <div class="col-md-3 mr-md- mb-3">
-                    <h4  class="mb-3"><a target="_blank" href="">Sally Glover</a></h4>
-                    <p>Sally has been a life advocate for the environmental movement. She has contributed to the wellness and sustainability of communities nationally and internationally, as an educator, psychologist and a business coach. She had a 6 year stint as co-chair of Victoria’s Values-based Business Network, sharing Green ideas to local businesses. She has produced and fundraised for many environmental causes, notably the first Fairy Creek rally, 2 Fest Music for the Environment and The Ocean Foundation.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-            
-
-
-
 
        
        {% include "footer.html" %}
